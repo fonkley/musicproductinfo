@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <title>MUSIC PRODUCT</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-   
+
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -15,53 +20,57 @@
     <link href='style.css' rel="stylesheet" type="text/css">
 
     <style>
-body {
-  background-image: url(bg.gif);
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 105% 105%;
-}
-@font-face {
-   font-family: Hel;
-   src: url(HelveticaNarrow.ttf);
-}
+        body {
+            background-image: url(bg.gif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 105% 105%;
+        }
+        
+        @font-face {
+            font-family: Hel;
+            src: url(HelveticaNarrow.ttf);
+        }
+        
+        * {
+            font-family: Hel;
+        }
+        
+        @font-face {
+            font-family: HelB;
+            src: url(HELBOLD.ttf);
+        }
+        
+        * {
+            font-family: HelB;
+        }
+        
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: black;
+            text-align: center;
+        }
+        
+        .center {
+            margin: auto;
+            width: 80%;
+            border: 0px solid #FFFF00;
+            padding: 0px;
+            text: left;
+        }
+    </style>
 
-* {
-   font-family: Hel;
-}
-@font-face {
-   font-family: HelB;
-   src: url(HELBOLD.ttf);
-}
+</head>
 
-* {
-   font-family: HelB;
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: black;
-  text-align: center;
-}
-.center {
-margin: auto;
-width: 80%;
-border: 0px solid #FFFF00;
-padding: 0px;
-text: left;
-}
-</style>
-
-  </head>
-
-  <body>
-<center>
-    <a href='home'>
-      <img src='M.svg' class='portrait'>
-    </a>
-</center>
-  </body>
+<body>
+    <center>
+        <a href='home'>
+            <img src='M.svg' class='portrait'>
+        </a>
+    </center>
+</body>
 
 </html>
