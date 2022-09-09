@@ -10,15 +10,15 @@ Code by Fonkley, for Music Product.
 <html>
 
 <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
 </head>
 
 <style>
     body {
-        background-image: url('bg.gif');
+        background-image: url('./assets/bg.gif');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 105% 105%;
@@ -26,7 +26,7 @@ Code by Fonkley, for Music Product.
     
     @font-face {
         font-family: Hel;
-        src: url(HelveticaNarrow.ttf);
+        src: url(./fonts/HelveticaNarrow.ttf);
     }
     
     * {
@@ -35,7 +35,7 @@ Code by Fonkley, for Music Product.
     
     @font-face {
         font-family: HelB;
-        src: url(HELBOLD.ttf);
+        src: url(./fonts/HELBOLD.ttf);
     }
     
     * {
@@ -55,7 +55,7 @@ Code by Fonkley, for Music Product.
         width: 80%;
         border: 0px solid #FFFF00;
         padding: 0px;
-        text: left;
+        text-align: left;
     }
 </style>
 
@@ -68,11 +68,13 @@ Code by Fonkley, for Music Product.
     <h1 style="font-family:Hel">
 BOUO, DIELIJ4H,
 <br>FONKLEY, LØCRIAN,
-<br>MUSICUBES, NYAAMBXR,
+<br>MUSICUBES, 
+<a href="artists/nyaambxr.html">NYAAMBXR</a>,
 <br>XENRX
 </h2>
-
+<a style="font-family:hel;" href="https://musicproduct.info" target="_blank">🠔 Back
         <style>
+            
             .footer {
                 position: fixed;
                 left: 0;
@@ -81,9 +83,17 @@ BOUO, DIELIJ4H,
                 color: black;
                 text-align: center;
             }
+           
+            a {
+            color: black;
+            }
+           
+            a:link {
+            text-decoration: none;
+            }
         </style>
-        <div class="footer"> <img src="M.svg" height=50> </center>
-            <br> <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BLANK_ICON.png" height=12> <br> <img src="official2.svg" height=15> <br> <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BLANK_ICON.png" height=12>
+        <div class="footer"> <img src="./assets/M.svg" height=50> </center>
+            <br> <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BLANK_ICON.png" height=12> <br> <img src="./assets/official2.svg" height=15> <br> <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BLANK_ICON.png" height=12>
         </div>
 
 </html>
